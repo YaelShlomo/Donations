@@ -1,0 +1,41 @@
+.disabled-pointer {
+    pointer-events: none;
+  }
+
+  .enabled-pointer {
+    pointer-events:painted
+  }
+
+  .pipe {
+    line-height:1;
+    margin-left: 10px;
+  }
+
+  .mat-expansion-panel-header.mat-expanded,
+  .mat-expansion-panel-header:hover {
+    background: #e2f8fb !important;
+  }
+
+  .mat-expansion-panel.mat-expanded {
+      border: 2px #3f51b5 solid !important;
+  }
+
+  .mat-expansion-panel{
+      border: gray 1px solid;
+  }
+
+mat-panel-title,
+mat-panel-description {
+  width: 300px;;
+
+}
+
+
+
+
+  
+  
+  
+
+  
+ 

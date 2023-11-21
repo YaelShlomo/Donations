@@ -1,0 +1,38 @@
+
+<div class="form" dir="rtl" *ngIf="donations else noDonation">
+  <mat-accordion class="accordion">
+        <mat-expansion-panel [expanded]=false
+      *ngFor="let donation of donations" #matExpansionPanel1 hideToggle>
+      <mat-expansion-panel-header class="disabled-pointer">
+        <mat-panel-title>
+         {{donation.name}}
+        </mat-panel-title>
+        <mat-panel-description *ngIf="this.getKeyByValue(currency, donation.currency)=='₪'">
+          {{donation.amount}} {{this.getKeyByValue(currency, donation.currency)}}
+        </mat-panel-description>
+        <mat-panel-description *ngIf="this.getKeyByValue(currency, donation.currency)!=='₪'">
+          {{this.getKeyByValue(currency, donation.currency)}} {{donation.amount}} 
+        </mat-panel-description>
+        <mat-icon class="icon" (click)="editDetails(donation)" class="enabled-pointer">edit</mat-icon>
+        <mat-icon class="icon" (click)="deleteDonation(donation)" class="enabled-pointer">delete_outline</mat-icon>
+        <!-- (click)="openDialog()" -->
+        <h4 class="pipe">|</h4>
+        <mat-icon class="icon" color="primary" (click)="showDetails(donation)" class="enabled-pointer toggle">keyboard_arrow_down</mat-icon>
+      </mat-expansion-panel-header>
+      <app-donation-details-form [donation]="selectedDonation2" [isDisable]="isDisable"
+        (onSaveDonation)="saveDonationToList($event)">
+      </app-donation-details-form>
+    </mat-expansion-panel>
+  </mat-accordion>
+</div>
+
+<br>
+<button mat-raised-button color="primary" class="btn-primary" (click)="showNewDonationDetails()">הוספת תרומה </button>
+<br>
+
+<app-donation-details-form [donation]="selectedDonation1" (onSaveDonation)="saveDonationToList($event)">
+</app-donation-details-form>
+
+<ng-template #noDonation>
+  <div class="card">לא נמצאו תרומות</div>
+</ng-template>

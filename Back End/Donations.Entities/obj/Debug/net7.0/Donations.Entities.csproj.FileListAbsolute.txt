@@ -1,0 +1,12 @@
+C:\Users\This_User\Desktop\contributeTest\Back End\Donations.Entities\bin\Debug\net7.0\Donations.Entities.deps.json
+C:\Users\This_User\Desktop\contributeTest\Back End\Donations.Entities\bin\Debug\net7.0\Donations.Entities.dll
+C:\Users\This_User\Desktop\contributeTest\Back End\Donations.Entities\bin\Debug\net7.0\Donations.Entities.pdb
+C:\Users\This_User\Desktop\contributeTest\Back End\Donations.Entities\obj\Debug\net7.0\Donations.Entities.csproj.AssemblyReference.cache
+C:\Users\This_User\Desktop\contributeTest\Back End\Donations.Entities\obj\Debug\net7.0\Donations.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\This_User\Desktop\contributeTest\Back End\Donations.Entities\obj\Debug\net7.0\Donations.Entities.AssemblyInfoInputs.cache
+C:\Users\This_User\Desktop\contributeTest\Back End\Donations.Entities\obj\Debug\net7.0\Donations.Entities.AssemblyInfo.cs
+C:\Users\This_User\Desktop\contributeTest\Back End\Donations.Entities\obj\Debug\net7.0\Donations.Entities.csproj.CoreCompileInputs.cache
+C:\Users\This_User\Desktop\contributeTest\Back End\Donations.Entities\obj\Debug\net7.0\Donations.Entities.dll
+C:\Users\This_User\Desktop\contributeTest\Back End\Donations.Entities\obj\Debug\net7.0\refint\Donations.Entities.dll
+C:\Users\This_User\Desktop\contributeTest\Back End\Donations.Entities\obj\Debug\net7.0\Donations.Entities.pdb
+C:\Users\This_User\Desktop\contributeTest\Back End\Donations.Entities\obj\Debug\net7.0\ref\Donations.Entities.dll

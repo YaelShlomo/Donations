@@ -1,0 +1,14 @@
+C:\Users\This_User\Desktop\contributeTest\Back End\Donations.DAL\bin\Debug\net6.0\Donations.DAL.deps.json
+C:\Users\This_User\Desktop\contributeTest\Back End\Donations.DAL\bin\Debug\net6.0\Donations.DAL.runtimeconfig.json
+C:\Users\This_User\Desktop\contributeTest\Back End\Donations.DAL\bin\Debug\net6.0\Donations.DAL.dll
+C:\Users\This_User\Desktop\contributeTest\Back End\Donations.DAL\bin\Debug\net6.0\Donations.DAL.pdb
+C:\Users\This_User\Desktop\contributeTest\Back End\Donations.DAL\obj\Debug\net6.0\Donations.DAL.csproj.AssemblyReference.cache
+C:\Users\This_User\Desktop\contributeTest\Back End\Donations.DAL\obj\Debug\net6.0\Donations.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\This_User\Desktop\contributeTest\Back End\Donations.DAL\obj\Debug\net6.0\Donations.DAL.AssemblyInfoInputs.cache
+C:\Users\This_User\Desktop\contributeTest\Back End\Donations.DAL\obj\Debug\net6.0\Donations.DAL.AssemblyInfo.cs
+C:\Users\This_User\Desktop\contributeTest\Back End\Donations.DAL\obj\Debug\net6.0\Donations.DAL.csproj.CoreCompileInputs.cache
+C:\Users\This_User\Desktop\contributeTest\Back End\Donations.DAL\obj\Debug\net6.0\Donations.DAL.dll
+C:\Users\This_User\Desktop\contributeTest\Back End\Donations.DAL\obj\Debug\net6.0\refint\Donations.DAL.dll
+C:\Users\This_User\Desktop\contributeTest\Back End\Donations.DAL\obj\Debug\net6.0\Donations.DAL.pdb
+C:\Users\This_User\Desktop\contributeTest\Back End\Donations.DAL\obj\Debug\net6.0\Donations.DAL.genruntimeconfig.cache
+C:\Users\This_User\Desktop\contributeTest\Back End\Donations.DAL\obj\Debug\net6.0\ref\Donations.DAL.dll

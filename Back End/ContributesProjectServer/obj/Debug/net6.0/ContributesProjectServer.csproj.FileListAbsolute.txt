@@ -1,0 +1,100 @@
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\bin\Debug\net6.0\appsettings.json
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\bin\Debug\net6.0\ContributesProjectServer.exe
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\bin\Debug\net6.0\ContributesProjectServer.deps.json
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\bin\Debug\net6.0\ContributesProjectServer.runtimeconfig.json
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\bin\Debug\net6.0\ContributesProjectServer.dll
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\bin\Debug\net6.0\ContributesProjectServer.pdb
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\bin\Debug\net6.0\AWSSDK.Core.dll
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\bin\Debug\net6.0\AWSSDK.SecurityToken.dll
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\bin\Debug\net6.0\DnsClient.dll
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\bin\Debug\net6.0\MongoDB.Bson.dll
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\bin\Debug\net6.0\MongoDB.Driver.dll
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\bin\Debug\net6.0\MongoDB.Driver.Core.dll
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\bin\Debug\net6.0\SharpCompress.dll
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\bin\Debug\net6.0\Snappier.dll
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\bin\Debug\net6.0\ZstdSharp.dll
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\obj\Debug\net6.0\ContributesProjectServer.csproj.AssemblyReference.cache
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\obj\Debug\net6.0\ContributesProjectServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\obj\Debug\net6.0\ContributesProjectServer.AssemblyInfoInputs.cache
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\obj\Debug\net6.0\ContributesProjectServer.AssemblyInfo.cs
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\obj\Debug\net6.0\ContributesProjectServer.csproj.CoreCompileInputs.cache
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\obj\Debug\net6.0\ContributesProjectServer.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\obj\Debug\net6.0\ContributesProjectServer.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\obj\Debug\net6.0\staticwebassets\msbuild.ContributesProjectServer.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\obj\Debug\net6.0\staticwebassets\msbuild.build.ContributesProjectServer.props
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ContributesProjectServer.props
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ContributesProjectServer.props
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\obj\Debug\net6.0\scopedcss\bundle\ContributesProjectServer.styles.css
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\obj\Debug\net6.0\ContributesProjectServer.csproj.CopyComplete
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\obj\Debug\net6.0\ContributesProjectServer.dll
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\obj\Debug\net6.0\refint\ContributesProjectServer.dll
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\obj\Debug\net6.0\ContributesProjectServer.pdb
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\obj\Debug\net6.0\ContributesProjectServer.genruntimeconfig.cache
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\obj\Debug\net6.0\ref\ContributesProjectServer.dll
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\bin\Debug\net6.0\BouncyCastle.Cryptography.dll
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\bin\Debug\net6.0\MailKit.dll
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\bin\Debug\net6.0\MimeKit.dll
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\This_User\Desktop\ContributesServer1\ContributesProjectServer\ContributesProjectServer\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\bin\Debug\net6.0\appsettings.json
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\bin\Debug\net6.0\ContributesProjectServer.exe
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\bin\Debug\net6.0\ContributesProjectServer.deps.json
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\bin\Debug\net6.0\ContributesProjectServer.runtimeconfig.json
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\bin\Debug\net6.0\ContributesProjectServer.dll
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\bin\Debug\net6.0\ContributesProjectServer.pdb
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\bin\Debug\net6.0\AWSSDK.Core.dll
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\bin\Debug\net6.0\AWSSDK.SecurityToken.dll
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\bin\Debug\net6.0\BouncyCastle.Cryptography.dll
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\bin\Debug\net6.0\DnsClient.dll
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\bin\Debug\net6.0\MailKit.dll
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\bin\Debug\net6.0\MimeKit.dll
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\bin\Debug\net6.0\MongoDB.Bson.dll
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\bin\Debug\net6.0\MongoDB.Driver.dll
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\bin\Debug\net6.0\MongoDB.Driver.Core.dll
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\bin\Debug\net6.0\SharpCompress.dll
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\bin\Debug\net6.0\Snappier.dll
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\bin\Debug\net6.0\ZstdSharp.dll
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\obj\Debug\net6.0\ContributesProjectServer.csproj.AssemblyReference.cache
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\obj\Debug\net6.0\ContributesProjectServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\obj\Debug\net6.0\ContributesProjectServer.AssemblyInfoInputs.cache
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\obj\Debug\net6.0\ContributesProjectServer.AssemblyInfo.cs
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\obj\Debug\net6.0\ContributesProjectServer.csproj.CoreCompileInputs.cache
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\obj\Debug\net6.0\ContributesProjectServer.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\obj\Debug\net6.0\ContributesProjectServer.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\obj\Debug\net6.0\staticwebassets\msbuild.ContributesProjectServer.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\obj\Debug\net6.0\staticwebassets\msbuild.build.ContributesProjectServer.props
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ContributesProjectServer.props
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ContributesProjectServer.props
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\obj\Debug\net6.0\scopedcss\bundle\ContributesProjectServer.styles.css
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\obj\Debug\net6.0\ContributesProjectServer.csproj.CopyComplete
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\obj\Debug\net6.0\ContributesProjectServer.dll
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\obj\Debug\net6.0\refint\ContributesProjectServer.dll
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\obj\Debug\net6.0\ContributesProjectServer.pdb
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\obj\Debug\net6.0\ContributesProjectServer.genruntimeconfig.cache
+C:\Users\This_User\Desktop\contributeTest\Back End\ContributesProjectServer\obj\Debug\net6.0\ref\ContributesProjectServer.dll

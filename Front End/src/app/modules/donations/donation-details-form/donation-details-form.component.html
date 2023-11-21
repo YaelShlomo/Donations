@@ -1,0 +1,88 @@
+<mat-card dir="rtl" [ngClass]="{'mat-elevation-z24':donation.id == 0, 'mat-elevation-z0':donation.id !==0}"
+  *ngIf="donation">
+  <form [formGroup]="donationForm">
+    <div class="all">
+      <ng-container *ngIf="donation.id == 0">
+        <mat-icon (click)="clearNewDonation()"> cancel_presentation</mat-icon>
+        <p class="title">הוספת דיווח על העמותה</p>
+      </ng-container>
+      <div [ngClass]="{'fxLayoutRow':donation.id == 0, 'fxLayoutCol':donation.id !== 0}" fxLayout.xs="column"
+        fxLayoutGap.xs="0" #p>
+        <mat-form-field appearance="outline" fxFlex="25%"
+          [ngClass]="{'marginLetf':donation.id == 0 && this.innerWidth >= 599}">
+          <mat-label>שם הישות המדינית הזרה</mat-label>
+          <input matInput formControlName="name">
+          <mat-error *ngIf="donationForm.controls?.['name']?.errors">
+            {{getErrorMessage("name")}}
+          </mat-error>
+        </mat-form-field>
+        <mat-form-field appearance="outline" fxFlex="25%"
+          [ngClass]="{'marginLetf':donation.id == 0 && this.innerWidth >= 599}">
+          <mat-label>סכום התרומה</mat-label>
+          <input matInput formControlName="amount">
+          <mat-error *ngIf="donationForm.controls?.['amount']?.errors">
+            {{getErrorMessage("amount")}}
+          </mat-error>
+        </mat-form-field>
+        <mat-form-field appearance="outline" fxFlex="50%">
+          <mat-label>סוג האישות המדינית הזרה</mat-label>
+          <mat-select formControlName="entity">
+            <mat-option *ngFor="let politicalEntity of politicalEntities" [value]="politicalEntity.entityId">
+              {{politicalEntity.description}}
+            </mat-option>
+          </mat-select>
+          <mat-error *ngIf="donationForm.controls?.['entity']?.errors">
+            {{getErrorMessage("entity")}}
+          </mat-error>
+        </mat-form-field>
+      </div>
+
+      <div>
+        <mat-form-field class="try" appearance="outline">
+          <mat-label>יעוד התרומה</mat-label>
+          <input matInput formControlName="destination">
+          <mat-error *ngIf="donationForm.controls?.['destination']?.errors">
+            {{getErrorMessage("destination")}}
+          </mat-error>
+        </mat-form-field>
+      </div>
+
+      <div>
+        <mat-form-field class="try" appearance="outline">
+          <mat-label>התנאים לתרומה</mat-label>
+          <input matInput formControlName="condition">
+        </mat-form-field>
+      </div>
+
+      <div [ngClass]="{'fxLayoutRow':donation.id == 0, 'fxLayoutCol':donation.id !== 0}"
+        fxLayout.xs="column" fxLayoutGap.xs="0">
+        <mat-form-field appearance="outline" fxFlex="25%"
+          [ngClass]="{'marginLetf':donation.id == 0 && this.innerWidth >= 599}">
+          <mat-label>סוג המטבע</mat-label>
+          <mat-select formControlName="currency">
+            <mat-option *ngFor="let currency of coins" [value]="currency">
+              {{currency}}
+            </mat-option>
+          </mat-select>
+          <mat-error *ngIf="donationForm.controls?.['currency']?.errors">
+            {{getErrorMessage("currency")}}
+          </mat-error>
+        </mat-form-field>
+        <mat-form-field appearance="outline" fxFlex="25%">
+          <mat-label>שער ההמרה</mat-label>
+          <input matInput formControlName="exchangeRate">
+          <mat-error *ngIf="donationForm.controls?.['exchangeRate']?.errors">
+            {{getErrorMessage("exchangeRate")}}
+          </mat-error>
+        </mat-form-field>
+      </div>
+    </div>
+
+    <div dir="ltr" >
+      <button mat-raised-button color="primary" class="btn btn-primary" (click)="saveNewDonation()"
+        *ngIf="!this.isDisable">שמירה</button>
+      <button mat-raised-button color="primary" class="btn btn-primary" type="button" (click)="clearDonation()"
+        *ngIf="!this.isDisable" [disabled]="!donationForm.dirty && !donationForm.valid">ניקוי</button>
+    </div>
+  </form>
+</mat-card>

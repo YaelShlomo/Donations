@@ -1,0 +1,44 @@
+.title {
+    font-family: "Trebuchet MS", Tahoma, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+.try {
+    width: 100% !important;
+}
+
+.fxLayoutRow {
+    flex-direction: row;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.fxLayoutCol {
+    flex-direction: column;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.marginLetf{
+    margin-left: 10px;
+}
+
+.btn {
+    border-radius: 50px;
+    width: 15%;
+    margin: 5px;
+}
+
+.mat-card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mat-icon {
+    cursor: pointer;
+}
+
+
