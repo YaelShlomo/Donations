@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Donations.DAL", "Donations.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Donations.BL", "Donations.BL\Donations.BL.csproj", "{1E04AAC5-8FE4-4C10-B83F-E15DD3922EF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Donations.Entities", "Donations.Entities\Donations.Entities.csproj", "{48FCA6FD-2C15-4A4A-B72E-E0CAECAB811B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Donations.Entities", "Donations.Entities\Donations.Entities.csproj", "{48FCA6FD-2C15-4A4A-B72E-E0CAECAB811B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Donations.Common", "Donations.Extensions\Donations.Common.csproj", "{11F47EBC-8F4B-48B7-BDF6-331188F906C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{48FCA6FD-2C15-4A4A-B72E-E0CAECAB811B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48FCA6FD-2C15-4A4A-B72E-E0CAECAB811B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48FCA6FD-2C15-4A4A-B72E-E0CAECAB811B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11F47EBC-8F4B-48B7-BDF6-331188F906C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11F47EBC-8F4B-48B7-BDF6-331188F906C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11F47EBC-8F4B-48B7-BDF6-331188F906C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11F47EBC-8F4B-48B7-BDF6-331188F906C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

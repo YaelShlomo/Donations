@@ -1,10 +1,9 @@
-export enum Currency {
-    "₪" = 'ils',
-    "$" = 'dollar',
-    "€" = 'euro'
+
+export class Currency {
+    currencyId: Number;
+    name: string;
+    symbol: string;
+
+    constructor() {
+    }
 }
-// export const Currency: { [key: string]: Object }[] = [
-//     {  id: 'dollar', name:"₪" },
-//     {  id: 'ils', name:"$" },
-//     {  id: 'euro', name:"€" },
-// ];

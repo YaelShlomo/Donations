@@ -16,20 +16,20 @@ import { PoliticalEntity } from '../models/political-entity';
 })
 export class DonationListComponent implements OnInit {
 
-  entity = PoliticalEntity;
-  currency = Currency;
   donations: Donation[];
   selectedDonation1: Donation;
   selectedDonation2: Donation | null;
   isDisable: boolean;
   donationsCounter: number;
+  politicalEntities: PoliticalEntity[];
+  currencies: Currency[];
 
   deleteDonation(donation: Donation) {
     let indexToDelete = this.donations.indexOf(donation);
     this.donations.splice(indexToDelete, 1);
     let id = donation.id;
     console.log(id);
-    this._donationsService.deleteDonationsFromServer(id).subscribe(data=>{
+    this._donationsService.deleteDonationsFromServer(id).subscribe(data => {
       console.log(data);
     });
   }
@@ -49,34 +49,29 @@ export class DonationListComponent implements OnInit {
     donationToSaveInCorrectFormat.id = donationToSave.id;
     donationToSaveInCorrectFormat.name = donationToSave.name;
     donationToSaveInCorrectFormat.amount = Number(donationToSave.amount);
-    donationToSaveInCorrectFormat.entity = donationToSave.entity;
-    donationToSave.entity = donationToSave.entity;
+    donationToSaveInCorrectFormat.entityId = donationToSave.entityId;
+    donationToSave.entityId = donationToSave.entityId;
     donationToSaveInCorrectFormat.destination = donationToSave.destination;
     donationToSaveInCorrectFormat.condition = donationToSave.condition;
-    donationToSaveInCorrectFormat.currency = donationToSave.currency;
+    donationToSaveInCorrectFormat.currencyId = donationToSave.currencyId;
     donationToSaveInCorrectFormat.exchangeRate = Number(donationToSave.exchangeRate);
+    console.log(JSON.stringify(donationToSaveInCorrectFormat));
 
     if (donationToSave.id == 0) {
       this.donationsCounter += 1;
       donationToSave.id = this.donationsCounter;
       donationToSaveInCorrectFormat.id = donationToSave.id;
       this.donations.push(donationToSave);
-      this._donationsService.saveDonation(donationToSaveInCorrectFormat).subscribe(data=>{
+      this._donationsService.saveDonation(donationToSaveInCorrectFormat).subscribe(data => {
       })
     }
     else {
       let conationToUpdate = this.donations.filter(x => x.id == donationToSave.id)[0];
       let index = this.donations.indexOf(conationToUpdate);
       this.donations[index] = donationToSave;
-      this._donationsService.updateDonation(donationToSaveInCorrectFormat).subscribe(data=>{
+      this._donationsService.updateDonation(donationToSaveInCorrectFormat).subscribe(data => {
       })
     }
-    // let emailDetails = new EmailModel()
-    // emailDetails.recipient = "yaelfrank100@gmail.com";
-    // emailDetails.body = "Email Body";
-    // emailDetails.subject = "A Contribution in excess of 10000 was received"
-    // console.log(emailDetails)
-    // this._donationsService.sendEmail(emailDetails).subscribe( data => {})
   }
 
   showDetails(donation: Donation) {
@@ -96,11 +91,25 @@ export class DonationListComponent implements OnInit {
   }
 
   constructor(private _donationsService: DonationService, private _acr: ActivatedRoute, public dialog: MatDialog) {
-        _donationsService.getDonationsFromServer().subscribe(donationsList => {
-          this.donations = donationsList;
-          this.donationsCounter = this.donations.length;
+    _donationsService.getDonationsFromServer().subscribe(donationsList => {
+      this.donations = donationsList;
+      this.donationsCounter = this.donations.length;
     })
- }
+    _donationsService.getPoliticalEntitiesFromServer().subscribe(politicalEntitiesList => {
+      this.politicalEntities = politicalEntitiesList;
+    })
+    _donationsService.getCurrenciesFromServer().subscribe(currenciesList => {
+      this.currencies = currenciesList;
+    })
+  }
+
+  getCurrencySymbolById(currencyId: Number): string {
+    if (this.currencies !== undefined) {
+      const foundCurrency = this.currencies.find(c => c.currencyId === currencyId);
+      return foundCurrency ? foundCurrency.symbol : '';
+    }
+    return '';
+  }
 
   userId?: number;
 
@@ -125,20 +134,6 @@ export class DonationListComponent implements OnInit {
     return (
       target.classList && target.classList.contains(expansionIndicatorClass)
     );
-  }
-
-  getKeyByValue(enumObj: any, value:any) {
-    for (const key in enumObj) {
-      if (enumObj[key] === value) {
-        if (typeof enumObj[key] === "number") {
-          return key;
-        }
-        else {
-          return enumObj[key];
-        }
-      }
-    }
-    return null; // Value not found in the enum
   }
 
 }

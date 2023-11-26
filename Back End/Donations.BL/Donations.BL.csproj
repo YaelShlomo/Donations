@@ -14,6 +14,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Donations.DAL\Donations.DAL.csproj" />
     <ProjectReference Include="..\Donations.Entities\Donations.Entities.csproj" />
+    <ProjectReference Include="..\Donations.Extensions\Donations.Common.csproj" />
   </ItemGroup>
 
 </Project>

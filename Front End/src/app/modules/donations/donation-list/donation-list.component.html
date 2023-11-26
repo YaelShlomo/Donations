@@ -7,11 +7,11 @@
         <mat-panel-title>
          {{donation.name}}
         </mat-panel-title>
-        <mat-panel-description *ngIf="this.getKeyByValue(currency, donation.currency)=='₪'">
-          {{donation.amount}} {{this.getKeyByValue(currency, donation.currency)}}
+        <mat-panel-description *ngIf="getCurrencySymbolById(donation.currencyId) === '₪'">
+          {{donation.amount}} {{getCurrencySymbolById(donation.currencyId)}}
         </mat-panel-description>
-        <mat-panel-description *ngIf="this.getKeyByValue(currency, donation.currency)!=='₪'">
-          {{this.getKeyByValue(currency, donation.currency)}} {{donation.amount}} 
+        <mat-panel-description *ngIf="getCurrencySymbolById(donation.currencyId)!=='₪'">
+          {{getCurrencySymbolById(donation.currencyId)}} {{donation.amount}} 
         </mat-panel-description>
         <mat-icon class="icon" (click)="editDetails(donation)" class="enabled-pointer">edit</mat-icon>
         <mat-icon class="icon" (click)="deleteDonation(donation)" class="enabled-pointer">delete_outline</mat-icon>

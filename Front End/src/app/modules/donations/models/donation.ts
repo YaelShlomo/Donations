@@ -6,10 +6,10 @@ export class Donation {
     id: Number;
     name: string;
     amount: Number;
-    entity: PoliticalEntity;
+    entityId: Number;
     destination: string;
     condition?: string;
-    currency: Currency;
+    currencyId: Number;
     exchangeRate: Number;
     
     constructor() {

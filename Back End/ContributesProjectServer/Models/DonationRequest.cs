@@ -8,7 +8,7 @@ namespace Donations.Models
 
         [Required(ErrorMessage = "Name is required.")]
         [RegularExpression(alphaRegex, ErrorMessage = "Name can only contain English or Hebrew characters")]
-        public string EntityName { get; set; } = String.Empty;
+        public string Name { get; set; } = String.Empty;
 
         [Required(ErrorMessage = "Amount is required.")]
         public decimal Amount { get; set; }
@@ -23,7 +23,7 @@ namespace Donations.Models
 
 
         [RegularExpression(alphaRegex, ErrorMessage = "Conditions can only contain English or Hebrew characters")]
-        public string Conditions { get; set; } = String.Empty;
+        public string Condition { get; set; } = String.Empty;
 
         [Required(ErrorMessage = "Currency Type is required.")]
         public int CurrencyId { get; set; }

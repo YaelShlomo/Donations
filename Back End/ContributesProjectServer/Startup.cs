@@ -47,6 +47,7 @@ namespace Donations
             });
 
             services.AddAutoMapper(typeof(Startup));
+            services.AddEmailServices();
             //services.AddScoped<IDonationService, DonationService>();
             //services.AddScoped<IDonationRepository, DonationRepository>();
         }

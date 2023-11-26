@@ -25,6 +25,7 @@ export class DonationDetailsFormComponent implements OnInit {
   }
 
   politicalEntities: PoliticalEntity[];
+  currencies: Currency[];
 
   private _isDisable: boolean;
 
@@ -40,10 +41,10 @@ export class DonationDetailsFormComponent implements OnInit {
         "id": new FormControl(this._donation.id),
         "name": new FormControl({ value: this._donation.name, disabled: this._isDisable }, [Validators.required, Validators.minLength(3), Validators.pattern(this.charRegex)]),
         "amount": new FormControl({ value: this._donation.amount, disabled: this._isDisable }, [Validators.required, Validators.pattern(this.numRegex)]),
-        "entity": new FormControl({ value: this._donation.entity, disabled: this._isDisable }, Validators.required),
+        "entityId": new FormControl({ value: this._donation.entityId, disabled: this._isDisable }, Validators.required),
         "destination": new FormControl({ value: this._donation.destination, disabled: this._isDisable }, Validators.required),
         "condition": new FormControl({ value: this._donation.condition, disabled: this._isDisable }),
-        "currency": new FormControl({ value: this.getKeyByValue(Currency, this._donation.currency), disabled: this._isDisable }, Validators.required),
+        "currencyId": new FormControl({ value: this._donation.currencyId, disabled: this._isDisable }, Validators.required),
         "exchangeRate": new FormControl({ value: this._donation.exchangeRate, disabled: this._isDisable }, Validators.required)
       });
     }
@@ -57,7 +58,7 @@ export class DonationDetailsFormComponent implements OnInit {
 
   numRegex = /^-?\d*[.,]?\d{0,2}$/;
 
-  charRegex = '^[a-zA-Z\u0590-\u05FF\u200f\u200e]+$';
+  charRegex = '^[a-zA-Z\u0590-\u05FF\u200f\u200e\s]+$';
 
   public get donation(): Donation | null {
     return this._donation!;
@@ -72,11 +73,11 @@ export class DonationDetailsFormComponent implements OnInit {
           "id": new FormControl(this._donation.id),
           "name": new FormControl(this._donation.name, [Validators.required, Validators.minLength(3), Validators.pattern(this.charRegex)]),
           "amount": new FormControl(this._donation.amount, [Validators.required, Validators.pattern(this.numRegex)]),
-          "entity": new FormControl(this._donation.entity, Validators.required),
+          "entityId": new FormControl(this._donation.entityId, Validators.required),
           "destination": new FormControl(this._donation.destination, Validators.required),
           "condition": new FormControl(this._donation.condition),
-          "currency": new FormControl(this.getKeyByValue(Currency, this._donation.currency), Validators.required),
-          "exchangeRate": new FormControl(this._donation.exchangeRate, Validators.required)
+          "currencyId": new FormControl(this._donation.currencyId, Validators.required),
+          "exchangeRate": new FormControl(this._donation.exchangeRate, [Validators.required, Validators.pattern(this.numRegex)])
         });
       }
     }    
@@ -104,11 +105,11 @@ export class DonationDetailsFormComponent implements OnInit {
       "id": new FormControl(this._donation.id),
       "name": new FormControl('', [Validators.required, Validators.minLength(3), Validators.pattern(this.charRegex)]),
       "amount": new FormControl('', [Validators.required, Validators.pattern(this.numRegex)]),
-      "entity": new FormControl('', Validators.required),
+      "entityId": new FormControl('', Validators.required),
       "destination": new FormControl('', Validators.required),
       "condition": new FormControl(''),
-      "currency": new FormControl('', Validators.required),
-      "exchangeRate": new FormControl('', Validators.required)
+      "currencyId": new FormControl('', Validators.required),
+      "exchangeRate": new FormControl('', [Validators.required, Validators.pattern(this.numRegex)])
     });
   }
 
@@ -140,21 +141,13 @@ export class DonationDetailsFormComponent implements OnInit {
     this.onFirstFocus.emit()
   }
 
-  getKeyByValue(enumObj: any, value:any) {
-    for (const key in enumObj) {
-      if (enumObj[key] === value) {
-        return key;
-      }
-    }
-    return null; // Value not found in the enum
-  }
-
   constructor(private _donationsService: DonationService) {
     _donationsService.getPoliticalEntitiesFromServer().subscribe(politicalEntitiesList => {
       this.politicalEntities = politicalEntitiesList;
     })
+    _donationsService.getCurrenciesFromServer().subscribe(currenciesList => {
+      this.currencies = currenciesList;
+    })
 }
 
-  // entities = Object.keys(PoliticalEntity).filter(key => isNaN(Number(key))==true);
-  coins = Object.keys(Currency).filter(key => isNaN(Number(key))==true);
 }

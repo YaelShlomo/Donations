@@ -48,11 +48,11 @@ namespace Donations.Controllers
             }
             var donation = new Donation
             {
-                Name = donationRequest.EntityName,
+                Name = donationRequest.Name,
                 Amount = donationRequest.Amount,
                 EntityId = donationRequest.EntityId,
                 Destination = donationRequest.Destination,
-                Condition = donationRequest.Conditions,
+                Condition = donationRequest.Condition,
                 CurrencyId = donationRequest.CurrencyId,
                 ExchangeRate = donationRequest.ExchangeRate
             };
@@ -70,11 +70,11 @@ namespace Donations.Controllers
             {
                 return NotFound($"The donation does not founded");
             }
-            existingDonation.Name = donationRequest.EntityName;
+            existingDonation.Name = donationRequest.Name;
             existingDonation.Amount = donationRequest.Amount;
             existingDonation.EntityId = donationRequest.EntityId;
             existingDonation.Destination = donationRequest.Destination;
-            existingDonation.Condition = donationRequest.Conditions;
+            existingDonation.Condition = donationRequest.Condition;
             existingDonation.CurrencyId = donationRequest.CurrencyId;
             existingDonation.ExchangeRate = donationRequest.ExchangeRate;
 
