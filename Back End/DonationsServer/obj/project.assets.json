@@ -3184,11 +3184,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\This_User\\Desktop\\donationsTest\\Back End\\ContributesProjectServer\\Donations.csproj",
+      "projectUniqueName": "C:\\Users\\This_User\\Desktop\\donationsTest\\Back End\\DonationsServer\\Donations.csproj",
       "projectName": "Donations",
-      "projectPath": "C:\\Users\\This_User\\Desktop\\donationsTest\\Back End\\ContributesProjectServer\\Donations.csproj",
+      "projectPath": "C:\\Users\\This_User\\Desktop\\donationsTest\\Back End\\DonationsServer\\Donations.csproj",
       "packagesPath": "C:\\Users\\This_User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\This_User\\Desktop\\donationsTest\\Back End\\ContributesProjectServer\\obj\\",
+      "outputPath": "C:\\Users\\This_User\\Desktop\\donationsTest\\Back End\\DonationsServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\ProgramData\\Xamarin\\NuGet\\",

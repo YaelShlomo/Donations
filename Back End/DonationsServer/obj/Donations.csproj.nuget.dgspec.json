@@ -1,93 +1,9 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\This_User\\Desktop\\donationsTest\\Back End\\ContributesProjectServer\\Donations.csproj": {}
+    "C:\\Users\\This_User\\Desktop\\donationsTest\\Back End\\DonationsServer\\Donations.csproj": {}
   },
   "projects": {
-    "C:\\Users\\This_User\\Desktop\\donationsTest\\Back End\\ContributesProjectServer\\Donations.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\This_User\\Desktop\\donationsTest\\Back End\\ContributesProjectServer\\Donations.csproj",
-        "projectName": "Donations",
-        "projectPath": "C:\\Users\\This_User\\Desktop\\donationsTest\\Back End\\ContributesProjectServer\\Donations.csproj",
-        "packagesPath": "C:\\Users\\This_User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\This_User\\Desktop\\donationsTest\\Back End\\ContributesProjectServer\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\ProgramData\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\This_User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net7.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
-            "projectReferences": {
-              "C:\\Users\\This_User\\Desktop\\donationsTest\\Back End\\Donations.BL\\Donations.BL.csproj": {
-                "projectPath": "C:\\Users\\This_User\\Desktop\\donationsTest\\Back End\\Donations.BL\\Donations.BL.csproj"
-              },
-              "C:\\Users\\This_User\\Desktop\\donationsTest\\Back End\\Donations.DAL\\Donations.DAL.csproj": {
-                "projectPath": "C:\\Users\\This_User\\Desktop\\donationsTest\\Back End\\Donations.DAL\\Donations.DAL.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
-          "dependencies": {
-            "AutoMapper": {
-              "target": "Package",
-              "version": "[12.0.1, )"
-            },
-            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
-              "target": "Package",
-              "version": "[12.0.1, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.2.3, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
     "C:\\Users\\This_User\\Desktop\\donationsTest\\Back End\\Donations.BL\\Donations.BL.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -378,6 +294,90 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\This_User\\Desktop\\donationsTest\\Back End\\DonationsServer\\Donations.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\This_User\\Desktop\\donationsTest\\Back End\\DonationsServer\\Donations.csproj",
+        "projectName": "Donations",
+        "projectPath": "C:\\Users\\This_User\\Desktop\\donationsTest\\Back End\\DonationsServer\\Donations.csproj",
+        "packagesPath": "C:\\Users\\This_User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\This_User\\Desktop\\donationsTest\\Back End\\DonationsServer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\This_User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\This_User\\Desktop\\donationsTest\\Back End\\Donations.BL\\Donations.BL.csproj": {
+                "projectPath": "C:\\Users\\This_User\\Desktop\\donationsTest\\Back End\\Donations.BL\\Donations.BL.csproj"
+              },
+              "C:\\Users\\This_User\\Desktop\\donationsTest\\Back End\\Donations.DAL\\Donations.DAL.csproj": {
+                "projectPath": "C:\\Users\\This_User\\Desktop\\donationsTest\\Back End\\Donations.DAL\\Donations.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
