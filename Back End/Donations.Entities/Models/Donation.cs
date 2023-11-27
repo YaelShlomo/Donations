@@ -26,9 +26,5 @@ namespace Donations.Entities.Models
 
         public decimal ExchangeRate { get; set; }
 
-        // Navigation Properties (for Entity Framework relationships)
-        //public Entity Entity { get; set; }
-
-        //public Currency Currency { get; set; }
     }
 }

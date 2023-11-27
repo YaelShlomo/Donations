@@ -3,6 +3,8 @@ using Donations.Models;
 using Donations.BL.Services;
 using Donations.Entities.Models;
 using Microsoft.AspNetCore.Mvc;
+using Donations.Extensions.AutoMapperConfig;
+using AutoMapper;
 
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -14,10 +16,12 @@ namespace Donations.Controllers
     public class DonationsController : ControllerBase
     {
         private readonly IDonationService _donationService;
+        private readonly IMapper _mapper;
 
-        public DonationsController(IDonationService _donationService)
+        public DonationsController(IDonationService _donationService, IMapper mapper)
         {
             this._donationService = _donationService;
+            this._mapper = mapper;
         }
         // GET: api/<DonationsController>
         [HttpGet]
@@ -46,16 +50,17 @@ namespace Donations.Controllers
                 var errorMessages = ModelState.Values.SelectMany(v => v.Errors.Select(e => e.ErrorMessage));
                 return BadRequest(string.Join(" ", errorMessages));
             }
-            var donation = new Donation
-            {
-                Name = donationRequest.Name,
-                Amount = donationRequest.Amount,
-                EntityId = donationRequest.EntityId,
-                Destination = donationRequest.Destination,
-                Condition = donationRequest.Condition,
-                CurrencyId = donationRequest.CurrencyId,
-                ExchangeRate = donationRequest.ExchangeRate
-            };
+            //var donation = new Donation
+            //{
+            //    Name = donationRequest.Name,
+            //    Amount = donationRequest.Amount,
+            //    EntityId = donationRequest.EntityId,
+            //    Destination = donationRequest.Destination,
+            //    Condition = donationRequest.Condition,
+            //    CurrencyId = donationRequest.CurrencyId,
+            //    ExchangeRate = donationRequest.ExchangeRate
+            //};
+            var donation = _mapper.Map<Donation>(donationRequest);
             _donationService.CreateDonation(donation);
             return CreatedAtAction(nameof(GetDonation), new { id = donation.Id }, donation);
         }

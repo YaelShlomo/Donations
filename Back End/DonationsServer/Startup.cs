@@ -46,10 +46,9 @@ namespace Donations
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Your API", Version = "v1" });
             });
 
-            services.AddAutoMapper(typeof(Startup));
+            //services.AddAutoMapper(typeof(Startup));
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.AddEmailServices();
-            //services.AddScoped<IDonationService, DonationService>();
-            //services.AddScoped<IDonationRepository, DonationRepository>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -75,6 +74,7 @@ namespace Donations
                 endpoints.MapControllers(); // Add this if you're using controllers
                 // Configure routing for your application
             });
+
         }
     }
 }
