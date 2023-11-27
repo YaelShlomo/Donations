@@ -50,16 +50,7 @@ namespace Donations.Controllers
                 var errorMessages = ModelState.Values.SelectMany(v => v.Errors.Select(e => e.ErrorMessage));
                 return BadRequest(string.Join(" ", errorMessages));
             }
-            //var donation = new Donation
-            //{
-            //    Name = donationRequest.Name,
-            //    Amount = donationRequest.Amount,
-            //    EntityId = donationRequest.EntityId,
-            //    Destination = donationRequest.Destination,
-            //    Condition = donationRequest.Condition,
-            //    CurrencyId = donationRequest.CurrencyId,
-            //    ExchangeRate = donationRequest.ExchangeRate
-            //};
+           
             var donation = _mapper.Map<Donation>(donationRequest);
             _donationService.CreateDonation(donation);
             return CreatedAtAction(nameof(GetDonation), new { id = donation.Id }, donation);
@@ -75,14 +66,8 @@ namespace Donations.Controllers
             {
                 return NotFound($"The donation does not founded");
             }
-            existingDonation.Name = donationRequest.Name;
-            existingDonation.Amount = donationRequest.Amount;
-            existingDonation.EntityId = donationRequest.EntityId;
-            existingDonation.Destination = donationRequest.Destination;
-            existingDonation.Condition = donationRequest.Condition;
-            existingDonation.CurrencyId = donationRequest.CurrencyId;
-            existingDonation.ExchangeRate = donationRequest.ExchangeRate;
 
+            _mapper.Map(donationRequest, existingDonation);
             _donationService.UpdateDonation(existingDonation);
             return NoContent();
         }

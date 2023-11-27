@@ -8,7 +8,8 @@ namespace Donations.Extensions.AutoMapperConfig
     {
         public DonationMappingProfile()
         {
-            CreateMap<DonationRequest, Donation>();
+            CreateMap<DonationRequest, Donation>()
+                .ForMember(dest => dest.Id, opt => opt.Ignore());
         }
     }
 }

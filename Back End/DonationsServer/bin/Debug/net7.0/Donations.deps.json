@@ -617,7 +617,6 @@
       },
       "Donations.BL/1.0.0": {
         "dependencies": {
-          "AutoMapper": "12.0.1",
           "Donations.Common": "1.0.0",
           "Donations.DAL": "1.0.0",
           "Donations.Entities": "1.0.0",
