@@ -55,7 +55,7 @@ export class DonationListComponent implements OnInit {
     donationToSaveInCorrectFormat.condition = donationToSave.condition;
     donationToSaveInCorrectFormat.currencyId = donationToSave.currencyId;
     donationToSaveInCorrectFormat.exchangeRate = Number(donationToSave.exchangeRate);
-    console.log(JSON.stringify(donationToSaveInCorrectFormat));
+    console.log(JSON.stringify(donationToSaveInCorrectFormat));  
 
     if (donationToSave.id == 0) {
       this.donationsCounter += 1;
